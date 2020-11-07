@@ -1,23 +1,23 @@
 
 ## Project - Paula Poleca
 
-#Installation
+#### Features
+* statistics
+* events in the Tri-City
+* adding new events - only for logged in users
+* adding to favorite events - logged in user only
+* user login and registration
+* individual user avatar
+* data of the logged in user
 
+#### Installation
 $ npm install
 $ npm install react-bootstrap bootstrap
 $ npm install recharts
 $ npm install react-share
 $ npm start
 
-### `page`
+#### `page`
 https://infoshareacademy.github.io/jfdz14-paula-poleca-app/
 
 
-### `team - VAMP`
-
-| No     | Name                |
-| :----: | :-----------------: |
-| 1.     | Volodymyr           |
-| 2.     | Androw              |
-| 3.     | Michel              |
-| 4.     | Paula               |
