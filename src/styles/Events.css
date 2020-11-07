@@ -1,0 +1,58 @@
+.movie-card img {
+    width: 50%;
+}
+.movie-card .descLong {
+    font-size: 14px;
+}
+.addFavourite {
+    cursor: pointer;
+    color: grey;
+    text-align: center;
+    margin: 0;
+}
+.addFavourite:hover {
+    /* font-weight: bold; */
+    color: #444;
+}
+.addFavourite .starColor {
+    color: #444;
+    padding-left: 10px;
+}
+.addFavourite .starColorActive {
+    color: orange;
+    padding-left: 10px;
+}
+.containerMore {
+    text-align: center;
+}
+.containerMore .buttonMore {
+    /* width: 300px; */
+}
+
+.findersBox {
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+/* 
+@media screen and (min-width: 1024px){
+
+    .findersBox {
+        padding: 8px;
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+} */
+    
+
+
+
+
+
+
+
+
