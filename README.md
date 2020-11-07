@@ -8,7 +8,8 @@
 * adding to favorite events - logged in user only
 * user login and registration
 * individual user avatar
-* data of the logged in user
+* profile data of the logged in user
+* database - firebase reatime databse
 
 #### Installation
 $ npm install
