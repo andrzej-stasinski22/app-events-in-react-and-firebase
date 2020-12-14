@@ -40,7 +40,7 @@ class Events extends React.Component {
     }
 
     logFavourite = (evnt) => {
-        evnt.target.textContent = 'Musisz być zalogowany';
+        evnt.target.innerHTML = 'Musisz być zalogowany';
     }    
     
     componentDidMount() {
@@ -135,7 +135,9 @@ class Events extends React.Component {
                         <div>
                             <p className="addFavourite"
                                 onClick={this.logFavourite}>Dodaj do ulubionych   
-                                <span className={event.favourite ? "starColorActive" : "starColor"}>
+                                <span 
+                                    className={event.favourite ? "starColorActive" : "starColor"} 
+                                    onClick={(e)=>{e.stopPropagation()}}>
                                     <i className="fa fa-heart fa-lg"></i>
                                 </span>
                             </p>                            

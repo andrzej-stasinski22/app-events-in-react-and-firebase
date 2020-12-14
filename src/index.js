@@ -20,8 +20,6 @@ export const DATABASE_URL = firebaseConfig.databaseURL;
 
 firebase.initializeApp(firebaseConfig);
 
-
-
 ReactDOM.render(
   <div>
     <Provider store={store}>

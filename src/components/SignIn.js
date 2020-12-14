@@ -125,7 +125,7 @@ class SignIn extends React.Component {
         firebase.storage().ref('avatars/' + this.state.user.uid)
             .getDownloadURL()
             .then(url => {
-                console.log(url);
+                // console.log(url);
                 this.setState({
                     url,
                 }, () => {

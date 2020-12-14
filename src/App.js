@@ -6,10 +6,8 @@ import Form from './components/Form';
 import Favourites from './components/Favourites';
 import Statistics from './components/Statistics';
 import ErrorPage from './components/ErrorPage';
-//import Share from './components/Share/Share';
 import SignIn from './components/SignIn';
 import Account from './components/Account';
-
 import {DATABASE_URL} from './index';
 import firebase from 'firebase';
 
@@ -102,9 +100,6 @@ class App extends Component {
     this.getFetch();
   }
 
-  // componentWillUnmount() {
-    // this.state.unsubscribe();
-  // }
 
   render() {
     return(
